@@ -1,0 +1,32 @@
+{
+  "version": "0.8.0",
+  "canisters": {
+    "hello": {
+      "type": "motoko",
+      "main": "src/code/main.mo",
+      "frontend": false
+    },
+    "assets": {
+      "type": "assets",
+      "source": [
+        "src/assets"
+      ],
+      "frontend": true
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "type": "persistent",
+      "wallet": "ogozk-zbxxq-snb6p-xhvkp-bi36o-s5v55-siew5-udr3s-jbuja-b4jfk-hqe"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "npm run pack"
+    }
+  }
+}

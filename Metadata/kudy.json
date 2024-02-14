@@ -1,0 +1,23 @@
+{
+  "name": "Kudy Cat #1",
+  "description": "A cute and curious kudy cat that loves to explore the Internet Computer.",
+  "image": "ipfs://QmP9ayW28pbW2V9nYAjEbxv45MTezQpz8S913VbV56nkCg/1.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Striped"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "None"
+    }
+  ]
+}
